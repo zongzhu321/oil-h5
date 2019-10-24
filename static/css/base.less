@@ -1,0 +1,253 @@
+.layout{
+    margin-top:0.3rem;
+    .layout_title{
+        font-size: 0.34rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        text-align: center;
+        background: #ffffff;
+        margin-bottom: 0.24rem;
+    }
+}
+.fontSize30{
+    font-size:0.3rem;
+}
+.fontSize32{
+    font-size:0.32rem;
+}
+.fontSize28{
+    font-size:0.28rem;
+}
+.fontSize34{
+    font-size:0.34rem!important
+}
+.color333{
+    color: #333333
+}
+.whiteBg{
+    background: #ffffff;
+}
+.mb20{margin-bottom:0.2rem}
+.mt20{
+    margin-top:0.2rem;
+}
+.prl_30{padding-right:0.3rem;padding-left: 0.3rem;}
+.mrl_30{margin-right:0.3rem;margin-left: 0.3rem;}
+.prl_40{padding-right:0.4rem;padding-left: 0.4rem;}
+.mrl_40{margin-left:0.4rem;margin-right:0.4rem}
+
+.columnImg{
+    img{
+        width: 0.76rem;
+        height: 0.76rem;
+        display: inline-block;
+    }
+}
+.Box{
+    overflow: visible;
+    padding:0 0 0.3rem 0;
+    &> div{
+        overflow: visible;
+    }
+    .van-grid-item{
+        overflow: visible;
+        &> div{
+            background: #FFFFFF;
+            border: none;
+            box-shadow: 0 0.02rem 0.12rem 0 #E4ECFF;
+            border-radius: 0.05rem;
+        }
+        
+    }
+}
+
+.cardRadio{
+    padding:0.3rem 0 0 0.3rem;
+    &>div{
+        display: inline-block;
+        overflow: visible;
+    }
+    .van-radio{
+        width: 2.8rem;
+        margin: 0 0.3rem 0 0.1rem;
+        .van-radio__icon{
+            height: 1.6rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.sellRadio{
+    display: inline-block;
+    vertical-align: middle;
+    overflow: visible;
+    .van-radio__icon{
+        overflow: visible;
+    }
+    &>div{
+        display: inline-block;
+        overflow: visible;
+        vertical-align: middle;
+    }
+}
+.packageRadio{
+    width: 6.5rem;
+    margin: 0 auto;
+    &> div{
+        display: inline-block;
+    }
+    .package_select{
+        display: inline-block;
+        overflow: visible;
+        vertical-align: middle;
+        background: #FFFFFF;
+        border: none;
+        width: 2rem;
+        box-shadow: 0 0.02rem 0.12rem 0 #E4ECFF;
+        border-radius: 0.05rem;
+        margin: 0.1rem 0.08rem;
+        padding:0.18rem 0;
+    }
+    .packageSelected{
+        background: #6595FF;
+        .money,.tehui{
+            color: #ffffff!important;
+        }
+    }
+    .van-radio{
+        text-align: center;
+        overflow: visible;
+    }
+    .van-radio__icon{
+        height: auto;
+    }
+}
+.addCardBox{
+    .van-cell{
+        padding:0.28rem 0.4rem;
+    }
+    .van-field__label{
+        width: auto;
+        padding-right:0.22rem;
+    }
+    .van-cell:not(:last-child)::after{
+        left:0;
+    }
+    .Agreement{
+        .van-checkbox__label{
+            color: #666666;
+            font-size: 0.26rem;
+        }
+    }
+}
+.addCardBtn{
+    position: fixed;
+    width: 100%;
+    background: #FF827C;
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+    bottom:0;
+    left:0;
+    color: #ffffff;
+    font-size:0.34rem;
+}
+.buyCardBtn{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    height: 1rem;
+    line-height: 1rem;
+    bottom:0;
+    left:0;
+    color: #ffffff;
+    font-size:0.34rem;
+    p{
+        height: 1rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    p.money{
+        color: #666666;
+        font-size:0.3rem;
+        padding-left:0.38rem;
+        span.amount{
+            font-size:0.38rem;
+            color: #333333;
+        }
+    }
+    p.submitBtn{
+        font-size:0.34rem;
+        padding:0 0.38rem;
+        background: #FF827C;
+        float:right;
+    }
+    span{
+        vertical-align: middle
+    }
+}
+.my_fun{
+  .van-cell{
+      padding:0.28rem 0;  
+  }
+  .van-cell__title{
+      span{
+          font-size: 0.3rem;
+      }
+  }
+  .van-cell::after{
+    position: absolute;
+    box-sizing: border-box;
+    content: ' ';
+    pointer-events: none;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #ebedf0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    }
+}
+.grayBack{
+    
+}
+.address_main{
+    .van-cell{
+        padding:0.3rem 0.3rem;
+    }
+    .van-address-edit-detail{
+        padding:0;
+    }
+    .van-button--danger{
+        background: #FF827C;
+        border: 0;
+    }
+    .van-radio__icon--checked .van-icon{
+        background: #FF827C!important;
+        border: 0!important;
+    }
+    .van-cell__title{
+        span{
+            font-size:0.3rem;
+            color: #333333
+        }
+    }
+}
+.iphone{
+    padding: 0;
+    .van-field__control{
+        font-size:0.26rem;
+        color: #333333
+    }
+    .van-field__left-icon{
+        margin:0!important;
+        
+    }
+}
+.van-tabbar-item--active{
+    color: #FF827C;
+}
+.arrowWhite{
+    width: 0.15rem;
+}
